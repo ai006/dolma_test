@@ -10,7 +10,7 @@ from pprint import pprint
 import IPython
 
 gem5_dir    = Path('..')
-gem5_opt    = gem5_dir / 'build' / 'X86_MESI_Two_Level' / 'gem5.opt'
+gem5_opt    = gem5_dir / 'build' / 'X86' / 'gem5.opt'
 gem5_script = Path('.') / 'se_run_experiment.py' #This script will call RunExperiment below
    
 def run_binary_on_gem5(bin_path, args):
